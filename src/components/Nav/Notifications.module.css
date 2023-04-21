@@ -1,0 +1,20 @@
+.notifications{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+}
+.notifCount{
+    background-color: var(--brand-color);
+    color: #fff;
+    padding: 0px 4px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 4px;
+    top: -8px;
+    font-size: 12px;
+}

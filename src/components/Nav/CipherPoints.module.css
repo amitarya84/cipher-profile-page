@@ -1,0 +1,20 @@
+.cipherPoints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.cipherPoints > img{
+    background-color: white;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+.cipherPointCount{
+    color: var(--brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}

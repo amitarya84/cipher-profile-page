@@ -1,0 +1,12 @@
+.profile{
+    background-color: var(--brand-color);
+    /* background-color: #004d40; */
+    color: white;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+}

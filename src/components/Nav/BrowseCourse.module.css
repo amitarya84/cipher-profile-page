@@ -1,0 +1,38 @@
+.browseTitle{
+    color: var(--text-color);
+}
+.BrowseCourse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+.selectBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.courseOptionsBox{
+    background-color: var(--second-white);
+    position: absolute;
+    top: 130%;
+    border-radius: 5px;
+    overflow: hidden;
+    filter: drop-shadow(1px 1px 5px #fff4);
+
+}
+.courseOptionsBox li{
+    list-style: none;
+    width: auto;
+    color: var(--text-color);
+    white-space: nowrap;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.courseOptionsBox li:hover{
+    background-color: var(--progress-color);
+}
