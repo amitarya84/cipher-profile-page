@@ -1,3 +1,75 @@
 .headerContainer{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    /* outline: 1px solid white; */
+    padding: 0 3%;
+    /* 262c36 */
+    position: sticky;
+    top: 60px;
+}
+.headerContainer > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.profileBox{
+    position: relative;
+}
+.profile{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.editProfile{
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #202b47;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileNameEmail{
+    color: var(--text-color);
+}
+.profileNameEmail > h2{
+    height: fit-content;
+    line-height: 1.25;
+}
+.greeting{
+    font-size: 20px;
+}
+.userName{
+    font-size: 24px;
+    font-weight: bold;
+}
+.userEmail{
+    font-size: 20px;
+
+}
+
+
+.followersBox{
+    color: var(--text-color);
+}
+.followersBox h2{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
 }

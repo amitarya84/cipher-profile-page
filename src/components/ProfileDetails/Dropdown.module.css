@@ -1,0 +1,27 @@
+.dropdownContainer{
+
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.dropdownContainer ul{
+    background-color: var(--background);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 4px 4px;
+    /* position: absolute; */
+}
+.dropdownContainer ul li{
+    list-style: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.dropdownContainer ul li:hover{
+    background-color: var(--brand-color);
+}

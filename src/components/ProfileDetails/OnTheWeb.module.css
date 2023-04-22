@@ -1,0 +1,54 @@
+.onTheWeb{
+    padding: 20px 3%;
+    color: var(--text-color);
+}
+.onTheWeb h3{
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.row > div {
+    /* width: 100%; */
+    width: 48%;
+    /* min-width: 400px; */
+
+}
+.inputWithIcon{
+    background-color: var(--background);
+    padding: 8px 16px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.inputWithIcon input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 90%;
+    color: var(--text-color);
+}
+
+.editSaveBtn{
+    background-color: var(--brand-color);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .row > div{
+        width: 100%;
+    }
+}

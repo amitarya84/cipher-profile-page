@@ -1,0 +1,27 @@
+.ProfessionalInfo{
+    padding: 20px 3%;
+    color: var(--text-color);
+}
+.ProfessionalInfo h3{
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 5px 0;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.row > div {
+    width: 48%;
+}
+
+.editSaveBtn{
+    background-color: var(--brand-color);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}

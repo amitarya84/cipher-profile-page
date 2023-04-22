@@ -26,7 +26,7 @@ export default function BrowseCourse({ }: Props) {
     return (
         <div className={styles.BrowseCourse}>
             <RiCompass3Line color='#fff' size={'20px'} />
-            <div onClick={e => setShowOptions(prv => !prv)} className={styles.selectBox}>
+            <div onClick={() => setShowOptions(prv => !prv)} className={styles.selectBox}>
                 <span className={styles.browseTitle}>Browse</span>
                 <RiArrowDropDownLine color='#fff' size={'28px'} style={{marginTop: '2px'}} />
             </div>
