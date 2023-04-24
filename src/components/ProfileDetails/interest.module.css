@@ -1,0 +1,87 @@
+.interestContainer{
+    padding: 30px 3%;
+    color: var(--text-color);
+}
+.interestContainer h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.editSaveBtn{
+    padding: 4px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--brand-color);
+    color: var(--text-color);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.interestModalContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: #0009;
+    position: fixed;
+    top: 0;
+}
+.interestsModal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--background);
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    color: var(--text-color);
+}
+.intererstContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+.interContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.intr{
+    padding: 5px 10px;
+    color: var(--brand-color);
+    border-radius: 5px;
+    background-color: #f3902e3b;
+    margin: 10px 0;
+}
+.intererstContainer h3{
+    width: 48%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--second-white);
+    margin: 5px 0;
+}
+.intererstContainer h3:hover{
+    background-color: var(--brand-color);
+}
+.btnContainer{
+    margin-top: 10px;
+}
+.btnContainer button{
+    padding: 6px 24px;
+    border: none;
+    border-radius: 5px;
+}
+.saveBtn{
+    background-color: var(--brand-color);
+    color: white;
+    margin-left: 10px;
+}
+.intererstContainer h3.selected{
+    background-color: var(--brand-color);
+}

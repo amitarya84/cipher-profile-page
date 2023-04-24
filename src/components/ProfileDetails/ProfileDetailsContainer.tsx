@@ -1,13 +1,10 @@
 import { AboutMe } from './AboutMe';
 import styles from './ProfileDetailsContainer.module.css'
 
-export interface IProfileDetailsContainerProps {
-}
-
-export function ProfileDetailsContainer (props: IProfileDetailsContainerProps) {
+export function ProfileDetailsContainer ({user}: any) {
   return (
     <main className={styles.ProfileDetailsContainer}>
-      <AboutMe />
+      <AboutMe user={user} />
     </main>
   );
 }

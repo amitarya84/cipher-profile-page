@@ -1,0 +1,84 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0009;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.modal{
+    width: 50%;
+    /* min-height: 500px; */
+    background-color: var(--background);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    padding: 15px 20px;
+    color: var(--text-color);
+    min-width: 500px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.siteLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.siteLogo h2{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:26px;
+}
+.siteLogo > img{
+    width: 35px;
+}
+
+.signUpForm{
+    display: flex;
+    flex-direction: column;
+}
+.signUpForm > div {
+    background-color: var(--second-white);
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signUpForm input{
+    /* background-color: var(--second-white); */
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+    color: var(--text-color);
+}
+
+.signupSubmitBtn{
+    background-color: var(--brand-color);
+    color: var(--text-color);
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.switchModalText{
+    text-align: center;
+    margin: 20px 0;
+}
+.switchModalText > span{
+    color: var(--brand-color);
+    cursor: pointer;
+}

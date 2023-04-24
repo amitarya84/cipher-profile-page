@@ -1,0 +1,25 @@
+.followerPageMainContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000;
+    padding: 80px 3%;
+}
+.headingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.followerPageMainContainer h3{
+    color: var(--text-color);
+    font-weight: 500;
+}
+.followersCardContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}

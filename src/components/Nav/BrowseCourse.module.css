@@ -10,6 +10,7 @@
     cursor: pointer;
     user-select: none;
 }
+
 .selectBox{
     display: flex;
     justify-content: space-between;

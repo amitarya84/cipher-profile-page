@@ -22,6 +22,6 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.dropdownContainer ul li:hover{
+.dropdownContainer ul li:hover, .selected{
     background-color: var(--brand-color);
 }
